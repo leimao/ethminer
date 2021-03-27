@@ -91,7 +91,7 @@ If you want to use locally installed [ROCm-OpenCL](https://rocmdocs.amd.com/en/l
     Note: On Windows, it is possible to have compiler issues if you don't specify the build config. In that case use:
 
     ```shell
-    cmake --build . --config Release
+    cmake --build . --config Release -j
     ```
 
 5. _(Optional, Linux only)_ Install the built executable:
